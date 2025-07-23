@@ -9,5 +9,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: true,
+    allowedHosts: [
+      "anime-clothing-store-tunnel-pwj8lobu.devinapps.com",
+      ".devinapps.com"
+    ]
+  }
 })
 
